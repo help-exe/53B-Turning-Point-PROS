@@ -75,5 +75,12 @@ void autonomous() {}
  */
 void opcontrol() {
     while(true) {
+
+        // Drive
+
+        // Arm
+
+        // Front Clamp
+        pros::delay(10);
     }
 }

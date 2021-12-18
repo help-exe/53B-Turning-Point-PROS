@@ -1,13 +1,13 @@
 //
 // Created by gcris on 12/18/21.
 //
-#include <main.h>
+#include "main.h"
 
 //<editor-fold desc="Motors">
 extern pros::Motor RightBack;
 extern pros::Motor RightFront;
 extern pros::Motor LeftBack;
-extern pros::Motors LeftFront;
+extern pros::Motor LeftFront;
 extern pros::Motor Arm;
 extern pros::Motor FrontClamp;
 //</editor-fold>

@@ -35,7 +35,8 @@
 #define PROS_USE_LITERALS
 
 #include "api.h"
-
+#include "subsystemHeaders/drive.h"
+#include "subsystemHeaders/globals.h"
 /**
  * You should add more #includes here
  */
@@ -75,6 +76,7 @@ void opcontrol(void);
 /**
  * You can add C++-only headers here
  */
+
 //#include <iostream>
 #endif
 
