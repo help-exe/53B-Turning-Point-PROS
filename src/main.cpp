@@ -77,8 +77,9 @@ void opcontrol() {
     while(true) {
 
         // Drive
-
+        driveUserControl();
         // Arm
+        armUserControl();
 
         // Front Clamp
         pros::delay(10);

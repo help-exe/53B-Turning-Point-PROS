@@ -4,7 +4,8 @@
 
 #include "../main.h"
 // DRIVER CONTROL FUNCTIONS
-void setDriveMotors();
+void setDrive(int left, int right);
+void driveUserControl();
 
 #ifndef INC_53B_TURNING_POINT_PROS_DRIVE_H
 #define INC_53B_TURNING_POINT_PROS_DRIVE_H

@@ -11,6 +11,8 @@ void setDrive(int left, int right) {
     LeftFront = left;
 }
 
-void setDriveMotors() {
-    setDrive(0,0);
+void driveUserControl() {
+    J3 = Controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y);
+    J2 = Controller.get_analog(pros::E_CONTROLLER_ANALOG_RIGHT_Y);
+    setDrive(J3, J2);
 }

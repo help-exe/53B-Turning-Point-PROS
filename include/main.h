@@ -37,6 +37,7 @@
 #include "api.h"
 #include "subsystemHeaders/drive.h"
 #include "subsystemHeaders/globals.h"
+#include "subsystemHeaders/arm.h"
 /**
  * You should add more #includes here
  */
